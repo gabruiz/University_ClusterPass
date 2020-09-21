@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.clusterpass.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_new_session"
+        android:name="com.example.clusterpass.ui.newsession.NewSessionFragment"
+        android:label="@string/menu_new_session"
+        tools:layout="@layout/fragment_new_session" />
+
+    <fragment
+        android:id="@+id/nav_your_steps"
+        android:name="com.example.clusterpass.ui.yoursteps.YourStepsFragment"
+        android:label="@string/menu_your_steps"
+        tools:layout="@layout/fragment_your_steps" />
+
+    <fragment
+        android:id="@+id/nav_find_path"
+        android:name="com.example.clusterpass.ui.findpath.FindPathFragment"
+        android:label="@string/menu_find_path"
+        tools:layout="@layout/fragment_find_path" />
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.clusterpass.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.clusterpass.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

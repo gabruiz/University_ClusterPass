@@ -1,0 +1,1 @@
+Per l'esecuzione del progetto è necessario configurare opportunamente indirizzo IP e porta nei server. Per l'applicazione Android sarà necessario specificare l'indirizzo IP del server Go nelle Activity: NewSession e ShowPath
